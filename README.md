@@ -1,4 +1,4 @@
-# 🐾 Smart Pet Care Management System
+# Smart Pet Care Management System
 
 > A Java console application built with core Object-Oriented Programming principles.
 
@@ -9,25 +9,25 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 Smart Pet Care Management System is a Java console application that allows a veterinary clinic to manage pet owners, pets (dogs and cats), veterinarians, services, and appointments — all from a simple terminal menu.
 
 ---
 
-## ✨ Features
+## Features
 
-- 👤 Add and manage **pet owners** with email contact info
-- 🐶🐱 Register **Dogs and Cats** with breed and age details
-- 📅 **Book appointments** linking owner, pet, vet, and service
-- 🧾 View appointments with a **formatted receipt** printout
-- 🔊 Demonstrate **polymorphism** via Pet Sounds (`makeSound()`)
-- 🔑 **Auto-generated IDs** for all entities using `AtomicInteger`
-- 🗄️ In-memory database with CRUD-like helper methods
+- Add and manage **pet owners** with email contact info
+- Register **Dogs and Cats** with breed and age details
+- **Book appointments** linking owner, pet, vet, and service
+- View appointments with a **formatted receipt** printout
+- Demonstrate **polymorphism** via Pet Sounds (`makeSound()`)
+- **Auto-generated IDs** for all entities using `AtomicInteger`
+-  In-memory database with CRUD-like helper methods
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -53,7 +53,7 @@ src/
 
 ---
 
-## 🧠 OOP Concepts Demonstrated
+## OOP Concepts Demonstrated
 
 | Concept | How It's Applied |
 |---|---|
@@ -64,7 +64,7 @@ src/
 
 ---
 
-## 🗂️ Class Overview
+## Class Overview
 
 ### Model Classes
 
@@ -88,7 +88,7 @@ src/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 - Java **11 or higher**
@@ -109,7 +109,7 @@ java -cp out app.Main
 
 ---
 
-## 🖥️ Application Menu
+## Application Menu
 
 On launch, the app seeds one default **owner** (Alice), **vet** (Dr. Lee), and **service** (General Checkup).
 
@@ -129,7 +129,7 @@ Enter your choice:
 
 ---
 
-## 🔑 ID Generation
+## ID Generation
 
 All entities get unique IDs via `IdGenerator.generateId(prefix)`. A shared `AtomicInteger` increments globally across all entity types.
 
@@ -143,7 +143,7 @@ All entities get unique IDs via `IdGenerator.generateId(prefix)`. A shared `Atom
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 - Data is **in-memory only** — all records are lost when the app exits
 - No input validation beyond basic null checks
@@ -152,7 +152,7 @@ All entities get unique IDs via `IdGenerator.generateId(prefix)`. A shared `Atom
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] File or database persistence (e.g., SQLite / JSON)
 - [ ] Appointment cancellation and rescheduling
@@ -162,6 +162,6 @@ All entities get unique IDs via `IdGenerator.generateId(prefix)`. A shared `Atom
 
 ---
 
-## 👤 Author
+## Author
 
 Developed as a Java OOP coursework/demo project. Built with **NetBeans IDE**.
