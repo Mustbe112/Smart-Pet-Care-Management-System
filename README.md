@@ -154,11 +154,11 @@ All entities get unique IDs via `IdGenerator.generateId(prefix)`. A shared `Atom
 
 ## Future Improvements
 
-- [ ] File or database persistence (e.g., SQLite / JSON)
-- [ ] Appointment cancellation and rescheduling
-- [ ] More pet types (Bird, Rabbit, etc.)
-- [ ] Input validation and error handling improvements
-- [ ] Fix currency symbol consistency
+-  File or database persistence (e.g., SQLite / JSON)
+-  Appointment cancellation and rescheduling
+-  More pet types (Bird, Rabbit, etc.)
+-  Input validation and error handling improvements
+-  Fix currency symbol consistency
 
 ---
 
